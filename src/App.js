@@ -1,6 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 
+import { sum, numbers } from './math.js'
+
+console.log(numbers.reduce(sum));
+
 function App() {
   return (
     <div className="App">
